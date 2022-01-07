@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Infinite List Tour",
+  "steps": [
+    {
+      "file": "lib/posts/bloc/posts_bloc.dart",
+      "description": "If we have fetched the max number of posts return.\n\nIf we are fetching posts for the first time fetch first 20 posts.\n\nElse if we have fetched posts previously fetch next 20 posts.\n\nIf posts come back empty then we have fetched the max number of posts.",
+      "line": 34
+    }
+  ]
+}
